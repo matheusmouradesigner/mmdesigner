@@ -15,20 +15,20 @@
 --fonte2:Source Serif Variable Roman, Minion Variable Concept Regular,Sitka Banner, cursive;
 }
 
-html {
-    scroll-behavior: smooth;
-    height: 500vh;
-  }
-
-*{
-margin: 0px;
-padding: 0px;
-}
-
-body{
-background-color: var(--cor1);
-}
-
+    html {
+        scroll-behavior: smooth;
+        height: 500vh;
+      }
+    
+    *{
+    margin: 0px;
+    padding: 0px;
+    }
+    
+    body{
+    background-color: var(--cor1);
+    }
+    
 /* Menu */
 
 header{
