@@ -756,12 +756,13 @@ padding-right: 5px;
     grid-template-columns: 1fr;
     grid-template-rows: 2fr;
     padding: 25px;
+    place-items: center;
     }
         .introducao{
             grid-column: 1;
             grid-row: 1;
             place-self: center center;
-            font-size: 3em;
+            font-size: 2em;
             color: var(--cor8);
             position:static;
              }
@@ -827,8 +828,7 @@ padding-right: 5px;
     .intro img{
         grid-column: 1;
         grid-row: 2;
-        place-items: center;
-        width: 70vw;
+        width: 100vw;
         
     }
     /* Sobre mim */
