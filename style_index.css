@@ -754,7 +754,7 @@ padding-right: 5px;
     .intro {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
+    grid-template-rows: 2fr;
     padding: 25px;
     }
         .introducao{
@@ -763,6 +763,7 @@ padding-right: 5px;
             place-self: center center;
             font-size: 1.3em;
             color: var(--cor8);
+            position:static;
              }
     
         .introducao h1{
@@ -824,7 +825,10 @@ padding-right: 5px;
         }
     
     .intro img{
-        display: none;
+        grid-column: 1;
+        grid-row: 2;
+        width: 50vw;
+        
     }
     /* Sobre mim */
     
@@ -843,7 +847,7 @@ padding-right: 5px;
             place-self: center;
             width: 50vw;
             border-radius: 15px;
-            padding-bottom: 50px;
+            padding: 50px;
         }
     
         .Sobre h1{
@@ -867,6 +871,7 @@ padding-right: 5px;
             }
     
             .Sobre a{
+                place-self: center center;
                 text-decoration:none;
                 color: var(--cor1);
                 background-color: var(--cor0);
