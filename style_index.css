@@ -761,9 +761,10 @@ padding-right: 5px;
             grid-column: 1;
             grid-row: 1;
             place-self: center center;
-            font-size: 1.3em;
+            font-size: 2em;
             color: var(--cor8);
             position:static;
+            margin: 20px 0px;
              }
     
         .introducao h1{
@@ -831,6 +832,7 @@ padding-right: 5px;
         align-self: center;
         width: 80vw;
         position:static;
+        margin: 20px 0px;
     }
     /* Sobre mim */
     
@@ -873,7 +875,8 @@ padding-right: 5px;
             }
     
             .Sobre a{
-                place-self: center center;
+                justify-self: center;
+                align-self: center;
                 text-decoration:none;
                 color: var(--cor1);
                 background-color: var(--cor0);
@@ -883,12 +886,6 @@ padding-right: 5px;
                 font-weight: bold;
                 text-align: center;
                 font-family: var(--fonte0);
-                }
-                
-                .Sobre a:hover{
-                background-color: var(--cor4);
-                color: var(--cor1);
-                border: 2px solid var(--cor4);
                 }
     /* Serviços */
     
