@@ -761,7 +761,7 @@ padding-right: 5px;
             grid-column: 1;
             grid-row: 1;
             place-self: center center;
-            font-size: 2em;
+            font-size: 1.5em;
             color: var(--cor8);
             position:static;
             margin: 20px 0px;
