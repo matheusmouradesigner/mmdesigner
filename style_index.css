@@ -767,7 +767,7 @@ padding-right: 5px;
              }
     
         .introducao h1{
-            text-align: left;
+            text-align: center;
         }
     
         .introducao span{
@@ -827,7 +827,7 @@ padding-right: 5px;
     .intro img{
         grid-column: 1;
         grid-row: 2;
-        place-self: center center;
+        place-items: center;
         width: 70vw;
         
     }
