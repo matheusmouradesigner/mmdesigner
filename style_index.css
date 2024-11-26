@@ -761,7 +761,7 @@ padding-right: 5px;
             grid-column: 1;
             grid-row: 1;
             place-self: center center;
-            font-size: 1.3em;
+            font-size: 3em;
             color: var(--cor8);
             position:static;
              }
@@ -827,7 +827,8 @@ padding-right: 5px;
     .intro img{
         grid-column: 1;
         grid-row: 2;
-        width: 50vw;
+        place-self: center center;
+        width: 70vw;
         
     }
     /* Sobre mim */
@@ -855,7 +856,7 @@ padding-right: 5px;
             grid-column: 1;
             grid-row: 1;
             place-self: center;
-            text-align: justify;
+            text-align: center;
             color: var(--cor8);
             font-size: 3em;
             }
