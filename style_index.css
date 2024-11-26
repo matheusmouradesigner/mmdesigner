@@ -853,6 +853,7 @@ padding-right: 5px;
             place-self: center;
             text-align: justify;
             color: var(--cor8);
+            font-size: 3em;
             }
         
             .Sobre p{
@@ -897,10 +898,8 @@ padding-right: 5px;
             width: 100%;
             grid-column: 1;
             grid-row: 1;
-            place-self: center;
-            padding-top: 75px;
-            text-align: justify;
-            text-indent: 30px;
+            place-self: start center;
+            text-align: center;
             font-size: 3em;
             color: var(--cor8);
             }
@@ -912,6 +911,8 @@ padding-right: 5px;
             flex-flow: row wrap;
             text-align: justify;
             gap: 50px;
+            align-items: center;
+            justify-content: center;
                 }
             .cards{
                 position: relative;
@@ -1080,11 +1081,11 @@ padding-right: 5px;
     .portfolio h1{
         grid-column: 1;
         grid-row: 1;
-        place-self: center center;
+        place-self: start center;
+        padding-bottom: 25px;
         text-align: center;
         font-size: 3em;
         color:var(--cor8);
-        padding-top: 75px;
         }
     .vitrine {
         width: 100%;
@@ -1199,7 +1200,7 @@ padding-right: 5px;
             grid-row: 1;
             position: relative;
             place-self: center;
-            width: 70%;
+            width: 90%;
             }
     
         .comunica{
