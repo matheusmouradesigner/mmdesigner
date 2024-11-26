@@ -831,7 +831,7 @@ padding-right: 5px;
     .Sobre {
         display: grid;
         grid-template-columns: 1fr;
-        grid-template-rows: 3fr;
+        grid-template-rows: 2fr;
         gap: 5px;
         padding:25px;
         align-items: center;
@@ -841,7 +841,7 @@ padding-right: 5px;
             grid-column: 1;
             grid-row: 2;
             place-self: center;
-            width: 16vw;
+            width: 50vw;
             border-radius: 15px;
             padding-bottom: 50px;
         }
@@ -858,7 +858,7 @@ padding-right: 5px;
         
             .Sobre p{
                 grid-column: 1;
-                grid-row: 3;
+                grid-row: 1;
                 font-family: var(--fonte1);
                 text-align: justify;
                 font-size: 1em;
