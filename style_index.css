@@ -55,6 +55,10 @@ justify-content: center;
 list-style: none;
 }
 
+.nav-list img{
+    display:none;
+}
+
 .nav-item{
 font-family: var(--fonte0);
 font-weight: bold;
@@ -680,9 +684,8 @@ padding-right: 5px;
         position:fixed;
         bottom: 0;
         left:0;
-        background-color: var(--cor1);
+        background-color: var(--cor0);
         z-index: 1000;
-        border-top: 3px solid var(--cor0);
     }
     
     .nav-brand{
@@ -699,7 +702,7 @@ padding-right: 5px;
     justify-content: space-around;
     list-style: none;
     }
-    
+
     .nav-item{
     font-family: var(--fonte0);
     font-weight: bold;
@@ -708,7 +711,7 @@ padding-right: 5px;
     
     .nav-link{
     text-decoration:none;
-    color: var(--cor8);
+    color: var(--cor1);
     border-radius: 1rem;
     padding: 5px 10px;
     margin: 0px 0px;
